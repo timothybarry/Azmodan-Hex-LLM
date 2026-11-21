@@ -1,5 +1,26 @@
 # prompt-rag: a self-improving, iterative RAG prompt optimizer
 
+> **Your prompts, but evolved.**
+>
+> prompt-rag is an **agentic, self-optimizing prompt-engineering engine** built on a
+> **closed-loop, human-aligned learning flywheel**. It fuses **LLM-native semantic retrieval**
+> and **multi-stage neural reranking** with an **iterative, critique-driven RAG loop**, then turns
+> every interaction into **compounding institutional memory**.
+>
+> * 🧠 **Claude-native, end to end.** One frontier model handles generation, evaluation, *and*
+>   semantic indexing. No separate vector database or embedding model to run.
+> * 🔁 **Iterative RAG.** Every revision round re-queries the knowledge base with the
+>   judge's diagnosis. The retrieval gets more targeted with each round.
+> * 📈 **Self-improving flywheel.** Quality-weighted memory and lessons ranked by measured
+>   utility, explored with UCB-style bandits, mean the system improves the more you use it.
+> * 🛡️ **Human-in-the-loop alignment guardrails.** Intent anchoring, an automated drift and
+>   hallucination gate, and human-approved memory writes keep the AI on target. No reward
+>   hacking, and no memory poisoning.
+> * ⚡ **Production-grade by default.** Adaptive reasoning, schema-validated structured outputs,
+>   automatic refusal failover, prompt caching, zero-infra SQLite persistence.
+>
+> **Stop writing prompts. Start compounding them.**
+
 Turn a rough request ("help me write a cover letter for a data job") into the prompt you
 should actually send to an LLM. Every run is remembered, scored, and reused, so results
 improve the more you use it. Human check-ins keep it anchored to what you actually meant.

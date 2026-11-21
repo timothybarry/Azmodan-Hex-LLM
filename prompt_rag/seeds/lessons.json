@@ -1,0 +1,14 @@
+[
+  "State the end goal and why it matters before describing the steps, so the model can make sensible judgment calls.",
+  "Name the audience and their expertise level so tone and depth match the reader.",
+  "Specify the output format explicitly: structure, sections, length, and whether to use markdown, JSON, or prose.",
+  "Put long reference material (documents, data, code) first, wrapped in descriptive XML tags, and the question or instruction after it.",
+  "Describe what a good result looks like with concrete success criteria rather than vague adjectives like 'good' or 'detailed'.",
+  "List hard constraints (must / must not) separately from preferences so the model can tell which can bend.",
+  "Tell the model what to do rather than only what not to do.",
+  "When the input may be ambiguous or missing information, tell the model how to handle it: ask, assume and state the assumption, or flag it.",
+  "For code tasks, give the language, version, framework, and how the result will be run or tested.",
+  "For analysis or reasoning tasks, ask the model to check its answer against the stated criteria before finishing.",
+  "Include one short example of the desired output when format matters, labelled as illustrative so it is not copied verbatim.",
+  "Use placeholders like [VARIABLE] for details only the user can supply instead of inventing them."
+]
